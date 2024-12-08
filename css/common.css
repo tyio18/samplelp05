@@ -1,0 +1,1193 @@
+@media only screen and (max-width: 750px) {
+    .pc { 
+        display: none !important; 
+    }
+
+    .sp {
+        display: block !important; 
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    /* cva area */
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .image-area img{
+        width: 90%;
+        height: auto; 
+        margin: 0 auto;
+    }
+
+    .image-area {
+        margin-top: 5px;
+    }
+
+    .content h2 {
+        font-size: 2.5vw;
+        text-align: center;
+        white-space: nowrap;
+        margin-left: -20%;
+        margin-top: 20%;
+    }
+
+    .usually-price {
+        font-size: 15px;
+        margin-left: -90%;
+    }
+
+    .price {
+        font-size: 5.0vw;
+        margin-left: -5%;
+    }
+    .special-price {
+       font-size: 7.5vw;
+       margin-left: 20px; 
+    }
+
+    .btnarea img{
+        margin: 0 auto;
+        margin-bottom:8px ;
+        width: 100%;
+    }
+
+    .cva {
+        margin: 0 auto;
+    }
+
+    .image-area {
+        position: relative;
+        & .cva{
+          position: absolute;
+          top:32%;
+          left: 50%; 
+          transform: translateX(-50%); 
+        }
+    }
+    .image-area {
+        position: relative;
+        & .btnarea{
+          position: absolute;
+          top: 105%;
+          left: 50%; 
+          transform: translateX(-50%); 
+          width: 90%;
+        }
+    }
+   
+    .question {
+        font-size: 5.0vw;
+        line-height: 2.0;
+        margin-top: 30px;
+    }
+
+    .question span img{
+        width: 35%;
+    }
+
+    .nayami img {
+        width: 80%;
+    }
+
+    .onayami {
+        position: relative;
+        & .nayami{
+          position: absolute;
+          bottom: 64%; 
+          width: 100%;
+        }
+    }
+
+    .approach {
+        font-size: 3.5vw;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+
+    .onayami {
+        position: relative;
+        & .approach{
+          position: absolute;
+          bottom: 58%; 
+        }
+    }
+
+    .onayami {
+        position: relative;
+        & .koumoku{
+          position: absolute;
+          bottom: 49%; 
+          width: 90%;
+        }
+    }
+
+    .need {
+        font-weight: 400;
+        font-size: 3.5vw;
+        white-space: nowrap;
+    }
+    
+
+    .onayami {
+        position: relative;
+        & .need{
+          position: absolute;
+          bottom: 45%; 
+        }
+    }
+
+    .onayami {
+        position: relative;
+        & .kaihatu{
+          position: absolute;
+          bottom: 32%;
+          width: 100%;
+        }
+    }
+
+    .gel-name h2 {
+        font-size: 3.5vw;
+        white-space: nowrap;
+    }
+
+    .onayami {
+        position: relative;
+        & .gel-name{
+          position: absolute;
+          bottom: 24%;
+
+        }
+    }
+
+    .onayami {
+        position: relative;
+        & .gel{
+          position: absolute;
+          bottom: 8%; 
+          width: 80%;
+        }
+    }
+
+    .onayami {
+        position: relative;
+        & .kaizen{
+          position: absolute;
+          bottom: 6%; 
+          width: 100%;
+        }
+    }
+
+    .nayami-kaizen {
+        font-size: 5.0vw;
+        white-space: nowrap;
+    }
+    
+    
+    .nayami-kaizen span {
+        font-size: 6.0vw;
+    }
+
+    .onayami {
+        position: relative;
+        & .nayami-kaizen{
+          position: absolute;
+          bottom: 2%; 
+        }
+    }
+    /*特徴*/
+
+    .tokuchou-title {
+        font-size: 4.0vw; 
+        white-space: nowrap;
+    }
+
+    .tokuchou-title span {
+        font-size: 8.0vw;
+    }
+
+    .tokuchou {
+        position: relative;
+        & .tokuchou-title{
+          position: absolute;
+          top:0.5%;
+        }
+    }
+
+    .niacinamide img {
+        width: 80%;
+    }
+    
+    .tokuchou {
+        position: relative;
+        & .niacinamide{
+          position: absolute;
+          top:3%;
+          width: 90%;
+
+        }
+    }
+
+    .tokuchou {
+        position: relative;
+        & .flex{
+          position: absolute;
+          top:5.5%;
+        }
+    }
+
+    .flex {
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    .flex img {
+        margin-right: 0; 
+        margin-bottom: 20px; 
+        width: 90%;
+    }
+    
+    .flex p {
+        width: 90%;
+        font-size: 3.0vw; 
+        text-align: center; 
+        
+    }
+    
+    .flex p img {
+        width: 100%; 
+        margin: 0 5px; 
+    }
+
+    .text-box p {
+        margin: 0;
+        font-size: 3.0vw; 
+        width: 450px;
+    }
+    
+    .text-box span {
+        font-size: 2.0vw;
+    }
+
+    .tokuchou {
+        position: relative;
+        & .text-box{
+          position: absolute;
+          top:13%;
+        }
+    }
+
+    .niacinamide-hada img {
+        width: 70%;
+        height: auto;
+    }
+    .tokuchou {
+        position: relative;
+        & .niacinamide-hada{
+          position: absolute;
+          top:16%;
+          left: 55%;
+        }
+    }
+
+    .attention {
+        font-size: 1.9vw;
+    }
+
+    .tokuchou {
+        position: relative;
+        & .attention{
+          position: absolute;
+          top:21%;
+          left: 10%;
+        }
+    }
+
+    .bihaku img {
+        width: 80%;
+    }
+    
+    .tokuchou {
+        position: relative;
+        & .bihaku{
+          position: absolute;
+          top:23%;
+          width: 90%;
+        }
+    }
+
+    .bihaku-text {
+        font-size: 3.0vw;
+        width: 90%;
+    }
+    
+    .tokuchou {
+        position: relative;
+        & .bihaku-text{
+          position: absolute;
+          top:25.5%;
+        }
+    }
+    .tokuchou {
+        position: relative;
+        & .bihaku-img{
+          position: absolute;
+          top:28.5%;
+          width: 80%;
+          left: 45%;
+        }
+    }
+    .bihaku-text-second {
+        font-size: 3.0vw;
+        width: 90%;
+    }
+    
+    .tokuchou {
+        position: relative;
+        & .bihaku-text-second{
+          position: absolute;
+          top:32%;
+          left: 50%; 
+          transform: translateX(-50%); 
+        }
+    }
+
+    .bihaku-text-third {
+        font-size: 3.0vw;
+        width: 50%;
+        line-height: 1.5;
+        white-space: nowrap;
+    }
+    
+    .bihaku-text-third span {
+        font-size: 4.0vw;
+    }
+
+    .tokuchou {
+        position: relative;
+        & .bihaku-text-third{
+          position: absolute;
+          top:36%;
+          left: 40%;
+        }
+    }
+
+    .attention-second {
+        font-size: 1.9vw;
+    }
+
+    .tokuchou {
+        position: relative;
+        & .attention-second{
+          position: absolute;
+          top:38%;
+          left: 40%;
+        }
+    }
+    
+    .tokuchou {
+        position: relative;
+        & .melting-oil{
+          position: absolute;
+          top:40%;
+          width: 90%;
+        }
+    }
+
+    .melting-oil-text {
+        font-size: 3.0vw; 
+        width: 90%;
+    }
+    
+    .tokuchou {
+        position: relative;
+        & .melting-oil-text{
+          position: absolute;
+          top:43%;
+        }
+    }
+
+    .tokuchou {
+        position: relative;
+        & .melting-oil-first{
+          position: absolute;
+          top:44%;
+          left: -5%;
+          width: 80%;
+        }
+    }
+
+    .tokuchou {
+        position: relative;
+        & .melting-oil-second{
+          position: absolute;
+          top:49%;
+          left: 8%;
+          width: 100%;
+        }
+    }
+
+    .flex-second {
+        width: 100%;
+    }
+    
+    .flex-second img {
+        width: 30%;
+        height: auto;
+    }
+    
+    .flex-second p {
+        font-size: 3.0vw; 
+        width: 70%;
+    }
+    
+    .flex-second p span {
+        font-size: 4.0vw;
+    }
+
+    .tokuchou {
+        position: relative;
+        & .flex-second{
+          position: absolute;
+          top:54%;
+          left: 55%;
+        }
+    }
+
+.melting-oil-text-second {
+    font-size: 3.0vw; 
+    width: 90%;
+}
+
+.melting-oil-text-second span {
+    font-size: 2.5vw;
+}
+
+.tokuchou {
+    position: relative;
+    & .melting-oil-text-second{
+      position: absolute;
+      top:57.5%;
+    }
+}
+
+.attention-third {
+    font-size: 1.9vw;
+}
+
+.tokuchou {
+    position: relative;
+    & .attention-third{
+      position: absolute;
+      top:59.5%;
+      left: 12%;
+    }
+}
+
+.tokuchou {
+    position: relative;
+    & .vitamin{
+      position: absolute;
+      bottom:35.8%;
+      left: 50%; 
+      transform: translateX(-50%); 
+      width: 90%;
+    }
+}
+
+.vitamin-text {
+    font-size: 3.0vw; 
+    width: 90%;
+    white-space: nowrap
+
+}
+
+.vitamin-text span {
+    font-size: 2.5vw;
+}
+
+.vitamin-text img {
+    width: 40%;
+}
+
+.tokuchou {
+    position: relative;
+    & .vitamin-text{
+      position: absolute;
+      bottom:34.5%;
+    }
+}
+.vitamin-text-second{
+    font-size: 3.0vw; 
+    width: 90%;
+}
+
+.tokuchou {
+    position: relative;
+    & .vitamin-text-second{
+      position: absolute;
+      bottom:33%;
+    }
+}
+
+.vitamin-img img {
+    width: 100%;
+}
+
+.tokuchou {
+    position: relative;
+    & .vitamin-img{
+      position: absolute;
+      bottom:31.9%;
+      width: 80%;
+    }
+}
+
+.vitamin-text-third{
+    font-size: 3.0vw; 
+    width: 90%;
+}
+
+.tokuchou {
+    position: relative;
+    & .vitamin-text-third{
+      position: absolute;
+      bottom:31%;
+    }
+}
+
+.vitamin-img-second img {
+    width: 90%;
+}
+
+.tokuchou {
+    position: relative;
+    & .vitamin-img-second{
+      position: absolute;
+      bottom:26.5%; 
+      width: 90%;
+    }
+}
+
+.vitamin-text-four {
+    font-size: 3.0vw;
+    width: 90%;
+}
+
+.vitamin-text-four span {
+    font-size: 5.0vw;
+}
+
+.tokuchou {
+    position: relative;
+    & .vitamin-text-four{
+      position: absolute;
+      bottom:23.5%;
+    }
+}
+
+.vitamin-img-third {
+    width: 100%;
+}
+.tokuchou {
+    position: relative;
+    & .vitamin-img-third{
+      position: absolute;
+      bottom:20.5%;
+      width: 100%;
+    }
+}
+
+.attention-four {
+    font-size: 1.9vw;
+}
+
+.tokuchou {
+    position: relative;
+    & .attention-four{
+      position: absolute;
+      bottom:19.7%;
+      left: 13%; 
+    }
+}
+
+.collagen img{
+    width: 80%;
+}
+
+.tokuchou {
+    position: relative;
+    & .collagen{
+      position: absolute;
+      bottom:16%; 
+      width: 90%;
+    }
+}
+.collagen-text {
+    font-size: 3.0vw; 
+    width: 90%;
+}
+
+.tokuchou {
+    position: relative;
+    & .collagen-text{
+      position: absolute;
+      bottom:13%;
+    }
+}
+
+.collagen-img img {
+    width: 80%;
+}
+
+.tokuchou {
+    position: relative;
+    & .collagen-img{
+      position: absolute;
+      bottom:7%;
+      width: 80%;
+    }
+}
+
+.collagen-img-second img {
+    width: 100%;
+}
+
+.tokuchou {
+    position: relative;
+    & .collagen-img-second{
+      position: absolute;
+      bottom:5%;
+      width: 90%;
+    }
+}
+
+.collagen-text-second {
+    font-size: 3.0vw; 
+    width: 80%;
+}
+
+.tokuchou {
+    position: relative;
+    & .collagen-text-second{
+      position: absolute;
+      bottom:2%;
+      left: 50%; 
+      transform: translateX(-50%); 
+    }
+}
+
+.attention-five {
+    font-size: 1.9vw;
+}
+
+.tokuchou {
+    position: relative;
+    & .attention-five{
+      position: absolute;
+      bottom:1%;
+      left: 10%;
+    }
+}
+
+.dakara-img-first img {
+    width: 100%;
+}
+
+.dakara {
+    position: relative;
+    & .dakara-img-first{
+      position: absolute;
+      top: -7%;
+      width: 30%;
+    }
+}
+
+.dakara-img-second img {
+    width: 100%;
+}
+
+.dakara {
+    position: relative;
+    & .dakara-img-second{
+      position: absolute;
+      top: 25%;
+      left: 3%; 
+      width: 60%;
+    }
+}
+
+.dakara-img-third img {
+    width: 90%;
+}
+
+.dakara {
+    position: relative;
+    & .dakara-img-third{
+      position: absolute;
+      bottom: -8%;
+      left: 50%; 
+      transform: translateX(-50%); 
+      width: 70%;
+    }
+}
+
+.dakara-text {
+    font-size: 7.5vw; 
+    width: 90%;
+}
+
+.dakara-text span{
+    font-size: 8.5vw;
+}
+
+.dakara {
+    position: relative;
+    & .dakara-text{
+      position: absolute;
+      bottom: -12%;
+      left: 50%;
+      transform: translateX(-50%); 
+    }
+}
+
+.shokubutu-title img {
+    width: 90%;
+}
+
+.shokubutu-ekisu {
+    position: relative;
+    & .shokubutu-title{
+      position: absolute;
+      top: 6%;
+      width: 90%;
+    }
+}
+
+.shokubutu-text {
+    font-size: 3.0vw;
+    width: 90%;
+}
+
+.shokubutu-ekisu {
+    position: relative;
+    & .shokubutu-text{
+      position: absolute;
+      top: 27%;
+    }
+}
+
+.shokubutu-img-second {
+    width: 90%;
+}
+
+.shokubutu-ekisu {
+    position: relative;
+    & .shokubutu-img-second{
+      position: absolute;
+      top: 35%;
+      width: 90%;
+    }
+}
+
+.shokubutu-text-second {
+    font-size: 3.0vw; 
+    width: 90%;
+}
+
+.shokubutu-ekisu {
+    position: relative;
+    & .shokubutu-text-second{
+      position: absolute;
+      bottom: 13%;
+    }
+}
+
+.ansin-title img {
+    width: 90%;
+}
+
+.ansin {
+    position: relative;
+    & .ansin-title{
+      position: absolute;
+      top: 1%;
+      left: 6%;
+      width: 40%;
+    }
+}
+
+.ansin-text {
+    font-size: 3.0vw; 
+    width: 90%;
+}
+
+.ansin {
+    position: relative;
+    & .ansin-text{
+      position: absolute;
+      top: 4.5%;
+    }
+}
+
+.ansin-img-second {
+    width: 90%;
+}
+
+.ansin {
+    position: relative;
+    & .ansin-img-second{
+      position: absolute;
+      top: 6.5%;
+      width: 80%;
+    }
+}
+
+.ansin-img-third img {
+    width: 90%;
+}
+
+.ansin {
+    position: relative;
+    & .ansin-img-third{
+      position: absolute;
+      top: 11%; 
+      width: 70%;
+    }
+}
+
+.ansin-img-four img {
+    width: 90%;
+}
+
+.ansin {
+    position: relative;
+    & .ansin-img-four{
+      position: absolute;
+      top: 23%;
+      width: 90%;
+    }
+}
+
+.ansin-text-second {
+    font-size: 3.0vw; 
+    width: 90%; 
+}
+
+.ansin {
+    position: relative;
+    & .ansin-text-second{
+      position: absolute;
+      bottom: 47%;
+    }
+}
+
+.ansin-img-five img {
+    width: 90%;
+}
+
+.ansin {
+    position: relative;
+    & .ansin-img-five{
+      position: absolute;
+      bottom: 39%;
+      width: 20%;
+    }
+}
+
+.ansin-img-six img {
+    width: 90%;
+}
+
+.ansin {
+    position: relative;
+    & .ansin-img-six{
+      position: absolute;
+      bottom: 34%;
+      width: 90%;
+    }
+}
+
+.ansin-text-third {
+    font-size: 3.0vw;
+    width: 90%; 
+}
+
+.ansin {
+    position: relative;
+    & .ansin-text-third{
+      position: absolute;
+      bottom: 29%;
+    }
+}
+
+.ansin-img-seven img {
+    width: 90%;
+}
+
+.ansin {
+    position: relative;
+    & .ansin-img-seven{
+      position: absolute;
+      bottom: 9%;
+      width: 80%;
+    }
+}
+
+.ansin-text-four {
+    font-size: 3.0vw; 
+    width: 90%; 
+}
+
+.ansin {
+    position: relative;
+    & .ansin-text-four{
+      position: absolute;
+      bottom: 3%;
+    }
+}
+
+.image-img-second img {
+    width: 90%;
+}
+
+.image {
+    position: relative;
+    & .image-img-second{
+      position: absolute;
+      bottom: 10%;
+      left: 9%;
+      width: 80%;
+    }
+}
+
+.voice-title {
+    font-size: 5.0vw;
+    font-weight: 200;
+}
+
+.voice {
+    position: relative;
+    & .voice-title{
+      position: absolute;
+      top: 3%;
+    }
+}
+.voice-text {
+    font-size: 3.0vw; 
+    width: 90%; 
+}
+
+.voice {
+    position: relative;
+    & .voice-text{
+      position: absolute;
+      top: 9%; 
+    }
+}
+
+.voice-img-second img {
+    width: 90%;
+}
+
+.voice {
+    position: relative;
+    & .voice-img-second{
+      position: absolute;
+      top: 14%;
+      left: 50%; 
+      transform: translateX(-50%); 
+      width: 40%;
+    }
+}
+
+.voice-text-second {
+    font-size: 3.0vw; 
+    width: 90%; 
+}
+
+.voice {
+    position: relative;
+    & .voice-text-second{
+      position: absolute;
+      top: 27%;
+    }
+}
+
+.voice-text-third{
+    color: #0a1e54;
+    margin: 0;
+    font-size: 3.0vw; 
+    width: 50%;  
+}
+
+.voice {
+    position: relative;
+    & .voice-text-third{
+      position: absolute;
+      top: 32%;
+      left: 50%; 
+      transform: translateX(-50%); 
+    }
+}
+
+.card-container {
+    width: 90%;
+    gap: 5px;
+}
+
+.review-card {
+    width: 80%;
+}
+
+.avatar img{
+    width: 40%;
+    top: -12%; 
+    left: 2%; 
+}
+
+.namae {
+    font-size: 1.5vw;
+    right: -52%;
+}
+
+.content-box h3{
+    font-size: 2.5vw;
+    white-space: nowrap;
+}
+
+.content-box p {
+    font-size: 2.0vw;
+    color: #333333;
+    text-align: center;
+    line-height: 2.0;
+  }
+
+.content-box img {
+    width: 90%;
+}
+
+.use-img-second img {
+    width: 100%;
+}
+
+.howtouse {
+    position: relative;
+    & .use-img-second{
+      position: absolute;
+      top: 3%;
+      width: 90%;
+ 
+    }
+}
+
+.step-container {
+    width: 90%;
+}
+
+.step {
+    padding: 10px 30px;
+}
+  
+.step-number {
+    font-size: 2.0vw;
+}
+
+.step-number span {
+    font-size: 4.0vw;
+}
+  
+.step-image img{
+    width: 80%;
+}
+  
+.step-text {
+    font-size: 3.0vw;
+}
+
+
+.howtouse {
+    position: relative;
+    & .step-container{
+      position: absolute;
+      top: 21%;
+    }
+}
+.use-img-third {
+    width: 100%;
+}
+
+.howtouse {
+    position: relative;
+    & .use-img-third{
+      position: absolute;
+      bottom: 31%;
+      left: 17%;
+      width: 90%;
+    }
+}
+
+.procedure img{
+    width: 80%;
+}
+
+.howtouse {
+    position: relative;
+    & .procedure {
+        position: absolute;
+        bottom: 24%;
+        width: 90%;
+        left: 60%;
+    }
+}
+
+.item li img {
+    width: 100%;
+    height: auto;
+}
+
+.howtouse {
+    position: relative;
+    & .item {
+        position: absolute;
+        bottom: 5%;
+        width: 90%;
+    }
+}
+
+.faq-title img {
+    width: 30%;
+}
+
+.qa-1 {
+    width: 90%;
+}
+
+.product-details h2 {
+    font-size: 5.0vw;
+}
+
+table {
+    width: 80%;
+}
+
+th,td {
+    font-size: 14px;
+    padding: 10px 30px;
+}
+
+.product-details {
+    margin-bottom: 20px;
+}
+
+.product-details p {
+    font-size: 6.0vw;
+}
+
+}
